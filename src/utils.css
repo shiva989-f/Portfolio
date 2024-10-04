@@ -1,0 +1,43 @@
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 20rem;
+  border: none;
+  width: 15rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: inset 2px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.btn a {
+  color: var(--primary-text-color);
+}
+
+.button-1 {
+  border: 0.1rem solid var(--secondary-text-color);
+  color: var(--primary-text-color);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+}
+
+.button-1 i {
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-2 {
+  background-color: var(--primary-text-color);
+  color: var(--white-color);
+  &:hover {
+    background-color: transparent;
+    border: 0.1rem solid var(--secondary-text-color);
+    color: var(--primary-text-color);
+  }
+}
