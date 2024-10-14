@@ -42,6 +42,7 @@ body::-webkit-scrollbar {
 } */
 
 .main-container {
+  min-height: 100vh;
   padding: 0 10vw;
   display: flex;
   justify-content: center;
