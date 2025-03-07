@@ -19,8 +19,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <div className="img-border">
-                        <img src="/my_image.png" alt="" />
+                    <div className="jiggly-div">
                     </div>
                 </div>
 
@@ -31,7 +30,7 @@ const Home = () => {
                     </div>
                     <div className="info">
                         <h3>Phone</h3>
-                        <p>+91 771077XXXX</p>
+                        <p>+91 7710775821</p>
                     </div>
                     <div className="info">
                         <h3>Location</h3>
@@ -41,10 +40,10 @@ const Home = () => {
             </main>
 
             <aside>
-                <a href=""><FaLinkedin /></a>
-                <a href=""><FaGithubSquare /></a>
-                <a href=""><FaWhatsappSquare/></a>
-                <a href=""><FaInstagramSquare /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/dev-shiva-kumar/"><FaLinkedin /></a>
+                <a target='_blank' href="https://github.com/shiva989-f"><FaGithubSquare /></a>
+                <a target='_blank' href="https://wa.me/+917710775821"><FaWhatsappSquare/></a>
+                <a target='_blank' href=""><FaInstagramSquare /></a>
             </aside>
         </div>
     )

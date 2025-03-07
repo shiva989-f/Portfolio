@@ -27,7 +27,7 @@ const About = () => {
             </div>
           </div>
           <p>
-            Hi, I’m Shiva, a budding full-stack MERN developer currently in my second year of BCA. I’m passionate about learning and building web applications,  and I’m excited to grow my skills in this dynamic field.  As I embark on this journey, I’m eager to explore new technologies  and take on challenges that help me learn and improve.
+            Hi, I’m Shiva, a full-stack MERN developer currently in my second year of BCA. I’m passionate about learning and building web applications,  and I’m excited to grow my skills in this dynamic field.  As I embark on this journey, I’m eager to explore new technologies  and take on challenges that help me learn and improve.
           </p>
 
         </div>

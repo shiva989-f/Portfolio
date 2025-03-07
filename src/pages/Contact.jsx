@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import { SiGmail } from 'react-icons/si'
 import { FaLinkedin } from 'react-icons/fa'
+import { MdClose } from 'react-icons/md'
 import Footer from '../components/Footer'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+
+  const [emailMSG, setEmailMSG] = useState("");
 
   const [formData, setFormData] = useState({
     name: '',
@@ -32,8 +35,20 @@ const Contact = () => {
       message: formData.message,
     }
 
-    // Clearing all feeds
-    setFormData({ name: '', email: '', message: '' })
+    // Send the mail using emailjs
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+    .then((res)=> {
+      console.log("Email Sent Successfully", res);
+      setEmailMSG("Email Sent Successfully, Thank You!")
+      // Clearing all feeds
+      setFormData({ name: '', email: '', message: '' })
+    })
+    .catch((err)=> {
+      console.log("Error sending email", err);
+      
+    })
+
+    
   }
 
   return (
@@ -67,11 +82,12 @@ const Contact = () => {
 
           <div>
             <label htmlFor="message">Message</label>
-            <input
+            <textarea
               type='text'
               name='message'
               value={formData.message}
               onChange={handleChange}
+              spellCheck='false'
               required
             />
           </div>
@@ -87,9 +103,14 @@ const Contact = () => {
         </div>
         <div className="linkedin">
           <i><FaLinkedin /></i>
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/dev-shiva-kumar/" target='_blank'>LinkedIn</a>
         </div>
       </div>
+
+      <div className={emailMSG ? "email-msg": "hide"}>
+        <i onClick={()=> setEmailMSG("")}><MdClose/></i>
+        {emailMSG}
+        </div>
 
       <Footer/>
     </div>

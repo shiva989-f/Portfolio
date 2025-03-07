@@ -1,6 +1,434 @@
 /* Breakpoints 321px, 481px, 769px, 1025, 1201px */
 
+@media (max-width: 1200px) {
+  #experience {
+    margin-top: 20rem;
+  }
+}
 
-@media (min-width: 1025px) {
-    
+@media (max-width: 1150px) {
+  #experience .experiences-container .experience {
+    margin: 1rem 0;
+  }
+  #experience .experiences-container .experience-name h3 {
+    font-size: 2.2rem;
+  }
+
+  #experience .experiences-container .experience-name p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1090px) {
+  #experience {
+    margin-top: 5rem;
+  }
+  #contact .contact-form {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 1030px) {
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+  }
+
+  .project img {
+    width: 26rem;
+  }
+}
+
+@media (max-width: 1004px) {
+  #home .left h1 {
+    font-size: 6rem;
+  }
+
+  #experience .left {
+    margin-right: 3rem;
+  }
+  #experience .right {
+    margin-left: 3rem;
+  }
+
+  #experience .experiences-container img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+  }
+
+  .page-heading {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  #experience .experiences-container img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+  }
+
+  #experience .experiences-container .experience-name h3 {
+    font-size: 1.8rem;
+  }
+
+  #experience .experiences-container .experience-name p {
+    font-size: 1.2rem;
+  }
+
+  #projects .project-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+  #home .left .intro {
+    font-size: 1.5rem;
+  }
+
+  .info-container h3 {
+    font-size: 14px;
+  }
+
+  .info-container p {
+    font-size: 1rem;
+  }
+
+  #about .right .detail-containers h3 {
+    font-size: 2.5rem;
+  }
+
+  #about .right .detail-containers p {
+    font-size: 1.4rem;
+  }
+
+  #about .right > p {
+    font-size: 1.4rem;
+  }
+
+  #experience .container > div {
+    height: 35rem;
+  }
+
+  #projects .project-container .project {
+    padding: 2rem;
+  }
+
+  #projects .project-container .project h3 {
+    font-size: 2rem;
+  }
+
+  #projects .project-container .project .buttons {
+    gap: 1.4rem;
+  }
+
+  #projects .btn {
+    width: 12rem;
+    font-size: 1.2rem;
+  }
+
+  .contact-container {
+    gap: 2rem;
+  }
+
+  .email a,
+  .linkedin a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #home main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 12rem;
+  }
+
+  #home main .right {
+    order: 1;
+  }
+
+  #home main .left {
+    justify-content: center;
+    order: 2;
+  }
+
+  #home main .left > * {
+    text-align: center;
+  }
+
+  #home main .left .buttons {
+    justify-content: center;
+  }
+
+  #home main .info-container {
+    display: none;
+  }
+
+  #about .container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 8rem;
+  }
+
+  #about .container > div {
+    width: 90%;
+  }
+
+  #about .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #experience .container > div {
+    width: 70%;
+    height: 40rem;
+    padding: 0 2rem;
+  }
+
+  #experience {
+    padding-top: 5rem;
+  }
+
+  #experience .container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  #experience .container > div {
+    width: 80%;
+    padding: 0 2rem;
+  }
+
+  #experience .left {
+    margin-right: 0rem;
+  }
+
+  #experience .right {
+    margin-left: 0rem;
+  }
+
+  #experience > div h2 {
+    font-size: 3rem;
+  }
+
+  #experience .experiences-container .experience-name h3 {
+    font-size: 2rem;
+  }
+
+  #experience .experiences-container .experience-name p {
+    font-size: 1.5rem;
+  }
+
+  #projects {
+    flex-direction: column;
+    padding: 0rem 0;
+  }
+
+  .project img {
+    width: 30rem;
+  }
+
+  #projects .project-container .project {
+    padding: 4rem;
+  }
+
+  #projects .project-container .project h3 {
+    font-size: 3rem;
+  }
+
+  #projects .project-container .project .buttons {
+    gap: 2rem;
+  }
+
+  #contact .contact-form {
+    width: 80%;
+  }
+
+  #contact .contact-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  nav .nav-links {
+    display: none;
+  }
+
+  nav .menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  #home {
+    min-height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  aside {
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    bottom: 0rem;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 2.5rem;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  #experience {
+    padding-top: 0rem;
+  }
+
+  #experience .container > div {
+    width: 100%;
+  }
+
+  #contact .contact-form {
+    width: 100%;
+  }
+
+  .contact-form div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .contact-form div > * {
+    width: 100%;
+  }
+
+  #contact .contact-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #home {
+    min-height: 100vh;
+  }
+
+  #home .right {
+    margin-top: -10rem;
+  }
+
+  #home .right .jiggly-div {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  #home .left h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  #home .left h1 {
+    font-size: 4rem;
+  }
+
+  #home .left .intro {
+    font-size: 1.2rem;
+  }
+
+  #home main .left .buttons {
+    flex-direction: column;
+  }
+
+  #about .left img {
+    width: 100%;
+  }
+
+  #about .right .about-detail-containers {
+    flex-direction: column;
+  }
+
+  #about .right .detail-containers {
+    width: 100%;
+  }
+
+  #experience .experiences-container {
+    width: 100%;
+    gap: 2rem 1rem;
+  }
+
+  #experience .container > div {
+    padding: 0 1rem;
+  }
+
+  #experience .experiences-container .experience {
+    gap: 0.5rem;
+  }
+
+  #experience .experiences-container img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+
+  #experience .experiences-container .experience-name h3 {
+    font-size: 1.5rem;
+  }
+
+  #experience .experiences-container .experience-name p {
+    font-size: 1.2rem;
+  }
+
+  .project img {
+    width: 20rem;
+  }
+
+  #projects .project-container .project {
+    padding: 2rem;
+  }
+
+  #projects .project-container .project h3 {
+    font-size: 3rem;
+  }
+
+  #projects .project-container .project .buttons {
+    gap: 1rem;
+  }
+
+  #projects .btn {
+    width: 10rem;
+  }
+
+  #contact .contact-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact .contact-container > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .email i,
+  .linkedin i {
+    font-size: 2rem;
+  }
+
+  #contact .contact-container > div a {
+    font-size: 1.4rem;
+  }
+
+  #footer p {
+    text-align: center;
+  }
 }

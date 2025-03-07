@@ -8,29 +8,11 @@ const Projects = () => {
       <h2 className='page-heading'>Projects</h2>
       <div className="project-container">
         <div className="project">
-          <img src="/project-1.png" alt="project" />
-          <h3>Project One</h3>
+          <img src="/wheelhive.png" alt="project" />
+          <h3>WheelHive</h3>
           <div className="buttons">
-            <button className="btn button-1"><a href="">Github</a><i><FaGithub /></i></button>
-            <button className="btn button-1"><a href="">Live Demo</a><i><FaShareFromSquare /></i></button>
-          </div>
-        </div>
-
-        <div className="project">
-          <img src="/project-2.png" alt="project" />
-          <h3>Project Two</h3>
-          <div className="buttons">
-            <button className="btn button-1"><a href="">Github</a><i><FaGithub /></i></button>
-            <button className="btn button-1"><a href="">Live Demo</a><i><FaShareFromSquare /></i></button>
-          </div>
-        </div>
-
-        <div className="project">
-          <img src="/project-3.png" alt="project" />
-          <h3>Project Three</h3>
-          <div className="buttons">
-            <button className="btn button-1"><a href="">Github</a><i><FaGithub/></i></button>
-            <button className="btn button-1"><a href="">Live Demo</a><i><FaShareFromSquare /></i></button>
+            <button className="btn button-1"><a target='_blank' href="https://github.com/shiva989-f/WheelHive">Github</a><i><FaGithub /></i></button>
+            <button className="btn button-1"><a target='_blank' href="https://wheelhive.netlify.app/all-cars">Demo</a><i><FaShareFromSquare /></i></button>
           </div>
         </div>
       </div>
