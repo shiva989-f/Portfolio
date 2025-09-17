@@ -21,7 +21,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(formData);
     // Emailjs ids
     const SERVICE_ID = 'service_6jx5t8h';
     const TEMPLATE_ID = 'template_d5sorol';
