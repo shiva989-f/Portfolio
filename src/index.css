@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
 
 :root {
   --primary-text-color: #000000;
@@ -7,7 +7,6 @@
   --secondary-color: #ff9914;
   --white-color: #ffff;
 }
-
 
 * {
   box-sizing: border-box;
@@ -94,7 +93,7 @@ nav ul a {
 
 nav .nav-links {
   display: flex;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-links.show {
@@ -110,7 +109,7 @@ nav .nav-links {
   background: var(--white-color);
 }
 
-.nav-links.show > *{
+.nav-links.show > * {
   padding: 2rem 0;
 }
 
