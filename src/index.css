@@ -441,8 +441,10 @@ aside > * {
   width: 30rem;
   border-radius: 2rem;
   transition: all 0.5s ease-in-out;
+  filter: grayscale(1);
   &:hover {
-    transform: rotate3d(1, -1, -1, 1turn);
+    /* transform: rotate3d(1, -1, -1, 1turn); */
+    filter: grayscale(0);
   }
 }
 
